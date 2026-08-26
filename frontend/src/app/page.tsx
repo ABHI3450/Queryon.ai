@@ -10,8 +10,6 @@ import {
   Zap,
   Lock,
   ShieldCheck,
-  Linkedin,
-  Github,
   Mail,
   Cpu,
 } from "lucide-react";
