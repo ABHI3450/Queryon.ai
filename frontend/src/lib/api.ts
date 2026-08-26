@@ -20,9 +20,9 @@ export interface Finding {
 
 export interface ChartInfo {
   finding_id: string;
-  chart_type: str;
-  file_path: str;
-  title: str;
+  chart_type: string;
+  file_path: string;
+  title: string;
 }
 
 export interface ReportData {
