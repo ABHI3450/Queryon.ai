@@ -41,7 +41,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             <div>
               <div className="flex items-center space-x-1.5">
                 <span className="font-extrabold text-xl tracking-tight text-white group-hover:text-cyan-300 transition">
-                  Analyst<span className="text-cyan-400">AI</span>
+                  Queryon<span className="text-cyan-400">.ai</span>
                 </span>
               </div>
               <div className="flex items-center space-x-1 mt-0.5">

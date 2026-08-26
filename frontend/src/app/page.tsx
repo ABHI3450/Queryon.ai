@@ -34,7 +34,7 @@ export default function WelcomePage() {
             </div>
             <div>
               <span className="font-extrabold text-xl tracking-tight text-white">
-                Analyst<span className="text-cyan-400">AI</span>
+                Queryon<span className="text-cyan-400">.ai</span>
               </span>
               <span className="ml-2 text-[10px] px-2.5 py-0.5 rounded-full bg-white/10 text-slate-300 font-semibold border border-white/15">
                 Pro
