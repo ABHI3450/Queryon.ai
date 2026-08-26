@@ -1,0 +1,46 @@
+# ═══════════════════════════════════════
+# Multi-Agent Data Analyst — Backend Dependencies
+# ═══════════════════════════════════════
+
+# --- Web Framework ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20       # File upload support
+sse-starlette==2.2.1           # Server-Sent Events for real-time status
+
+# --- Data Processing ---
+pandas==2.2.3
+openpyxl==3.1.5                # Excel file support
+numpy==2.2.1
+
+# --- Visualization ---
+matplotlib==3.10.0
+
+# --- LLM (Groq) ---
+groq==0.15.0                   # Groq API SDK (OpenAI-compatible)
+
+# --- Database ---
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0                # Async PostgreSQL driver
+alembic==1.14.1                # Database migrations
+
+# --- Auth ---
+pyjwt[crypto]==2.10.1          # Clerk JWT verification
+cryptography==44.0.0           # For RS256 key handling
+httpx==0.28.1                  # Async HTTP client (JWKS fetching)
+
+# --- Configuration ---
+pydantic-settings==2.7.1       # Settings management from env vars
+python-dotenv==1.0.1
+
+# --- Logging & Monitoring ---
+structlog==24.4.0              # Structured logging
+
+# --- Testing ---
+pytest==8.3.4
+pytest-asyncio==0.25.0
+pytest-cov==6.0.0
+
+# --- PDF Generation ---
+weasyprint==63.1               # Report PDF export (optional, needs system deps)
+markdown==3.7                  # Markdown to HTML conversion
