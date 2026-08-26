@@ -80,7 +80,9 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
         {/* User Account Footer */}
         <div className="p-4 m-5 rounded-3xl glass-card-glow flex items-center justify-between border border-white/15">
           <div className="flex items-center space-x-3 overflow-hidden">
-            <UserButton afterSignOutUrl="/" />
+            <div className="w-8 h-8 rounded-full bg-cyan-500/20 border border-cyan-400/40 text-cyan-300 flex items-center justify-center font-bold text-xs shrink-0">
+              Q
+            </div>
             <div className="truncate text-xs">
               <p className="font-bold text-white truncate">{user?.fullName || "User Account"}</p>
               <p className="text-cyan-400 text-[11px] font-semibold truncate">{user?.primaryEmailAddress?.emailAddress || "Free Tier (10/mo)"}</p>
